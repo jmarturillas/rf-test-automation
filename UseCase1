@@ -1,0 +1,29 @@
+== Use Case #1 - Login Page ==
+
+Brief Description: To be successfully logged in to the website, a user should fill in Email and Password fields with correct values. If email and/or password values are incorrect, the website will display an appropriate message.
+
+Actors: A user
+
+Triggers: When a user opens the website and tries to log in to it.
+
+Flow of Events
+
+
+________________________________________________________________________________________________________________________
+1.  | A user clicks "Login" button  | Validation :                                                                      |
+    |                               | - If email and/or password fields are not filled in with any values, the website  |
+    |                               | makes the empty fields border red color                                           |
+    |                               | - When a user enters an incorrect email or password, then the website will display|
+    |                               | an appropriate error message.                                                     |
+____|_______________________________|___________________________________________________________________________________|
+2.  | A user clicks "Forgot your    | A user will see Reset Password page with Email field and "Send" button.           |
+    | password? Recover password"   |                                                                                   |
+____|_link__________________________|___________________________________________________________________________________|
+
+Precondition: A user navigates to Login Page of the website.
+
+Post Conditions:
+
+A user successfully logs in to the website with valid credentials
+After the authentication, a user is redirected to the Main page of the website which is Library page. There is a mandatory section called “Upcoming Product” on it.
+The Main Menu of the website is displayed.

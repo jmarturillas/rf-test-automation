@@ -1,0 +1,28 @@
+== Use Case #2 - Cancel Subscription ==
+
+Brief Description: A user owns subscription and he/she wants to cancel it.
+
+Actors: A user
+
+Triggers: A user clicks “Cancel Subscription” link placed in a product description section on Subscription Details page.
+
+Flow of Events:
+
+A user clicks “Cancel Subscription” link
+A user sees a list of reasons for canceling the subscription and they have to pick one
+Once he/she selects a reason, he/she clicks “Continue” button
+A user is taken to a page which offers a 50% discount for the next 3 months for that subscription. A user can choose between "Keep Subscription" or "Cancel Subscription"
+A user has to click one of the buttons mentioned above depending on what he/she wishes to do
+If he/she clicks "Cancel Subscription" button, his/her subscription gets canceled. A user will be redirected to Product subscription page where he/she can see an appropriate message about canceling the subscription.
+If he/she clicks "Keep Subscription" button, then a discount of 50% is applied to that subscription for 3 months.
+Precondition: A user navigates to Subscription Details page of the website.
+
+Post Conditions:
+
+If a user cancels a product subscription, then the status of the product subscription will be changed to “Cancelled”.
+
+If a user decided to keep the subscription, then a discount of 50% is applied to that subscription for 3 months.
+
+On 4th month they get charged the full amount again.
+
+The 50% discount can only be applied once to every subscription. If a user tries to apply the 50% discount more than once, he/she will see an appropriate error message

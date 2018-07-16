@@ -1,0 +1,9 @@
+requests
+robotframework
+robotframework-faker
+robotframework-requests
+robotframework-selenium2library
+robotframework-seleniumlibrary
+robotframework-sshlibrary
+selenium
+urllib3

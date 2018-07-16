@@ -1,0 +1,8 @@
+{
+  "uris": {
+    "home" : "http://automationpractice.com/index.php",
+    "login" : "http://automationpractice.com/index.php?controller=authentication&back=my-account"
+  },
+  "library": "Selenium2Library",
+  "browser": "chrome"
+}

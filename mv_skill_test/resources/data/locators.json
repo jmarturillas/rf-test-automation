@@ -1,0 +1,14 @@
+{
+  "locators": {
+    "login_page": {
+      "txt_email": "id=email",
+      "txt_password": "id=passwd",
+      "btn_login": "id=SubmitLogin",
+      "lnk_forgot_pw": "xpath=//a[contains(.,'Forgot your password?')]",
+      "err_login": "css=div[class='alert alert-danger']"
+    },
+    "forgot_password_page": {
+      "txt_email": "id=email"
+    }
+  }
+}
