@@ -24,5 +24,5 @@ Validate Forgot Password Page
 
 Validate Successful Login
     [Documentation]  Validate that main page displays after a successful login.
-    login with  username=username=music.acct91@gmail.com  password=dummy1991
+    login with  username=music.acct91@gmail.com  password=dummy1991
     validate redirect account home page
